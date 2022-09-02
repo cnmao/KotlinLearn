@@ -45,6 +45,7 @@ class C : A {
 
 class D : A, B {
     //Class 'D' must override public open fun foo(): Unit defined in kotlinBasic.interfacetest.A because it inherits multiple interface methods of it
+
     override fun foo() {
         super<A>.foo()
         super<B>.foo()
