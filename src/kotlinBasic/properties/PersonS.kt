@@ -8,6 +8,7 @@ class PersonS {
         set(value) {
             println("执行了写访问器，参数为：$value")
         }
+
 }
 
 //测试
